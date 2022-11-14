@@ -1,0 +1,9 @@
+Guia
+realizar um right Join para pegar as informações do curso e exibir na listagem de alunos.php
+ALTER TABLE alunos ADD FOREIGN KEY (id_curso) REFERENCES cursos(id_curso);
+
+
+o que falta 
+[] criar a função criar curso
+[] criar a função editar aluno
+[] criar a função deletar aluno
